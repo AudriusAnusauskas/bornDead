@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
     <title>Document</title>
 </head>
+<div class="container">
+    <div class="row">
+        <div class="col-md-9">
+            <div class="card">
+<form id="submit-form">
 
-<form>
+    <h1>World birth and death clock</h1>
+
     <label for="input">
         Average number of births per second:
         <input type="text" id="avgBorn">
@@ -17,13 +24,18 @@
         <input type="text" id="avgDead">
     </label>
 
-    <button id="btn" type="submit">Submit</button>
-
+    <button class="btn cust-btn" id="btn" type="submit">Submit</button>
+    <button class="btn cust-btn" id="btn2" type="">Stop </button>
+    <h2 >Born: <span id="born"></span></h2>
+    
+    <h2 >Dead: <span id="dead"></span></h2>
+</div>
 </form>
 
-<h2 >Born: <span id="born"></span></h2>
 
-<h2 >Dead: <span id="dead"></span></h2>
+        </div>
+    </div>
+</div>
 
 <body>
     <script src="./test.js"></script>

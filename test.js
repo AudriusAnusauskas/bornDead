@@ -2,6 +2,7 @@ let bornCount =0;
 let deadCount=0;
 
 const btn = document.getElementById('btn');
+const btn2 = document.getElementById('btn2');
 
 btn.addEventListener('click', function handleClick(event) {
 
@@ -22,6 +23,8 @@ function bornDead(){
         return false
     }
     
-    console.log(setInterval(bornDead, 1000));
+  setInterval(bornDead, 1000);
 
 })
+
+btn2.addEventListener('click', clearInterval())
