@@ -24,7 +24,7 @@ function bornDead(){
           // let sheet = document.createElement('style')
           // sheet.innerHTML = "div {flex: ; border: 2px solid black; width: 20px; height: 10%; background-color: blue;}";
           // targetDiv.appendChild(sheet);
-          var tempDiv = document.createElement('div');
+          var tempDiv = document.createElement('span');
           tempDiv.style.display = 'inline';
           tempDiv.style.backgroundColor = 'pink';
           // tempDiv.style.height = '20px';
