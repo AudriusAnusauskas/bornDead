@@ -25,13 +25,10 @@ function bornDead(){
           // sheet.innerHTML = "div {flex: ; border: 2px solid black; width: 20px; height: 10%; background-color: blue;}";
           // targetDiv.appendChild(sheet);
           var tempDiv = document.createElement('span');
-          tempDiv.style.display = 'inline';
-          tempDiv.style.backgroundColor = 'pink';
-          // tempDiv.style.height = '20px';
-          // tempDiv.style.width = '20px';
-          tempDiv.style.margin = '2px';
-          tempDiv.style.border = 'solid black 1px';
-
+          tempDiv.setAttribute(
+            'style',
+            'background-color: salmon; color: white; width: 15px; height: 15px; border: solid black 1px;',
+          );
           
           if (targetDiv) {
             targetDiv.insertAdjacentElement('afterend', tempDiv);
