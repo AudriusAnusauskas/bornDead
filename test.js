@@ -29,7 +29,7 @@ function bornDead(){
             'style',
             'display: inline; color: white; width: 15px; height: 15px; border: solid black 1px;',
             'src',
-            './img/images.jpeg'
+            'img/images.jpeg'
           );
           
           if (targetDiv) {
