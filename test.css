@@ -47,7 +47,7 @@ html{
     box-sizing: border-box;
   }
   input{
-    width: 30px;
+    width: 35px;
   }
   .inputs{
     display: flex;
