@@ -10,26 +10,30 @@
 </head>
 <div class="container">
     <div class="row">
-        <div class="col-md-9">
+       
             <div class="card">
+                <h1>World birth and death clock</h1>
 <form id="submit-form">
 
-    <h1>World birth and death clock</h1>
-
-    <label for="input">
-        Average number of births per second:
-        <input type="text" id="avgBorn">
-    </label>
-    <label for="input">
-        Average number of deaths per second:
-        <input type="text" id="avgDead">
-    </label>
-
+    <div class="col-md-6 inputs">
+        <label for="input">
+            Average number of births per second:
+            <input type="text" id="avgBorn">
+        </label>
+        <label for="input">
+            Average number of deaths per second:
+            <input type="text" id="avgDead">
+        </label>
+    </div>
+    <div class="col-md-2 buttons">
     <button class="btn cust-btn" id="btn" type="submit">Submit</button>
     <button class="btn cust-btn" id="btn2" type="">Stop </button>
+    </div>
+    <div class="col-md-4 counter">
     <h2 >Born: <span id="born"></span></h2>
     
     <h2 >Dead: <span id="dead"></span></h2>
+    </div>
 </div>
 </form>
 
@@ -42,7 +46,7 @@
         <div class="col-md-9">
 <div id="innerdivs"></div>
     </div>
-</div>
+
 </div>
 <body>
     <script src="./test.js"></script>
