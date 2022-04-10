@@ -27,7 +27,7 @@ function bornDead(){
           var tempDiv = document.createElement('img');
           tempDiv.setAttribute(
             'style',
-            'display: inline; color: white; width: 15px; height: 15px; border: solid black 1px;',
+            'display: inline; color: white; width: 20px; height: 15px; border: solid black 1px;',
             'src',
             'img/images.jpeg'
           );
