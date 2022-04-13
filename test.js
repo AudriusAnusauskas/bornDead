@@ -29,7 +29,9 @@ function bornDead(){
             'style',
             'display: inline; color: white; width: 20px; height: 25px; border: solid black 1px;',
             'src',
-            'img/images.jpeg'
+            'img/images.jpeg',
+            'alt',
+            'newborn'
           );
           
           if (targetDiv) {
